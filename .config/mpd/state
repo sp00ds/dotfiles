@@ -1,0 +1,20 @@
+sw_volume: 100
+audio_device_state:1:PipeWire
+state: pause
+current: 1
+time: 26.734
+random: 1
+repeat: 1
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0
+mixrampdelay: -1
+lastloadedplaylist: 
+playlist_begin
+0:Indian/Kaadhal Oru - Oru Kal Oru Kannadi.mp3
+1:Indian/Azhage Azhage - Oru Kal Oru Kannadi.mp3
+2:Indian/Akila Akila - Oru Kal Oru Kannadi.mp3
+3:Indian/Adada Oru - Oru Kal Oru Kannadi.mp3
+4:Indian/Venaam Machan - Oru Kal Oru Kannadi.mp3
+playlist_end

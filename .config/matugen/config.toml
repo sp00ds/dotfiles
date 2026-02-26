@@ -1,0 +1,34 @@
+[config]
+
+
+[templates.waybar]
+input_path = '~/.config/matugen/templates/waybar.css'
+output_path = '~/.config/waybar/colors.css'
+post_hook = 'pkill -SIGUSR2 waybar'
+
+[templates.kitty]
+input_path = '~/.config/matugen/templates/kitty.conf'
+output_path = '~/.config/kitty/colors.conf'
+post_hook = 'pkill -SIGUSR1 kitty'
+
+[templates.gtk3]
+input_path = '~/.config/matugen/templates/gtk.css'
+output_path = '~/.config/gtk-3.0/colors.css'
+post_hook = 'gsettings set org.gnome.desktop.interface gtk-theme ""; gsettings set org.gnome.desktop.interface gtk-theme adw-gtk3-{{mode}}'
+
+[templates.gtk4]
+input_path = '~/.config/matugen/templates/gtk.css'
+output_path = '~/.config/gtk-4.0/colors.css'
+
+[templates.rofi]
+input_path = '~/.config/matugen/templates/rofi.rasi'
+output_path = '~/.config/rofi/colors.rasi'
+
+[templates.qt5ct]
+input_path = '~/.config/matugen/templates/qt.conf'
+output_path = '~/.config/qt5ct/colors/matugen.conf'
+
+[templates.pywalfox]
+input_path = '~/.config/matugen/templates/pywalfox.json'
+output_path = '~/.cache/wal/colors.json'
+post_hook = 'pywalfox update'

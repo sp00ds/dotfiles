@@ -1,0 +1,92 @@
+* {
+    background-color:   @surface;
+    text-color:         @on-primary-container;
+    font:               "Inter SemiBold 14";
+
+    margin:             0px;
+    padding:            0px;
+    spacing:            0px;
+}
+
+window {
+    width:              30%;
+    border-radius:      12px;
+}
+
+mainbox {
+    padding:            18px;
+}
+
+inputbar {
+    font-size:          24px;
+    background-color:   @surface-container-low;
+    border-radius:      8px;
+
+    padding:            12px;
+    spacing:            8px;
+    children:           [icon-search, entry];
+}
+
+icon-search {
+    background-color:   transparent;
+    expand:             false;
+    filename:           "search_thin.png";
+    size:               24px;
+    tint:               #ffffff;
+}
+
+prompt {
+    text-color:         @on-primary-container;
+}
+
+entry {
+    font:               "Inter Bold 18";
+    background-color:   transparent;
+    placeholder:        "Search";
+    cursor:             text;
+}
+
+textbox {
+    padding:            8px 24px;
+}
+
+listview {
+    background-color:   transparent;
+    margin:             12px 0 0;
+    lines:              4;
+    columns:            2;
+    fixed-height:       false;
+}
+
+element {
+    background-color:   @surface-container-lowest;
+    padding:            18px 12px;
+    margin:             6px;
+    spacing:            8px;
+    border-radius:      8px;
+}
+
+element selected normal, element selected active {
+    background-color:   @on-primary-fixed;
+    border:             2px;
+    border-color:       @on-primary-container;
+}
+
+element-icon {
+    size:               2em;
+    vertical-align:     0.5;
+    background-color:   transparent;
+}
+
+element-text {
+    background-color:   transparent;
+    font:               "Inter SemiBold 18";
+    vertical-align:     0.5;
+}
+
+element-text selected{
+    text-color:         #ffffff;
+    background-color:   transparent;
+}
+
+@import "/home/sridhar/.config/rofi/colors.rasi"

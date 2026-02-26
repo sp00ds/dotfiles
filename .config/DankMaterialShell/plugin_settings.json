@@ -1,0 +1,13 @@
+{
+  "dankBatteryAlerts": {
+    "enabled": true,
+    "criticalThreshold": 10,
+    "criticalTitle": "Very Low Battery"
+  },
+  "dankActions": {
+    "enabled": true
+  },
+  "niriWindows": {
+    "enabled": true
+  }
+}
