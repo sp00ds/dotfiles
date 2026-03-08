@@ -67,14 +67,15 @@ layout {
     // You can also add a border. It's similar to the focus ring, but always visible.
     border {
         off
-        width 5
-        active-color "#432d96"
+        width 2
+        active-color "#30009b"
         inactive-color "#505050"
         urgent-color "#9b0000"
     }
 }
 
 spawn-at-startup "waybar"
+spawn-at-startup "bash" "-c" "~/.config/awww/wallpaper.sh timer"
 
 // To run a shell command (with variables, pipes, etc.), use spawn-sh-at-startup:
 // spawn-sh-at-startup "qs -c ~/source/qs/MyAwesomeShell"
