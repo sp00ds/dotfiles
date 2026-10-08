@@ -8,7 +8,7 @@ order = [ "Top_Bar" ]
     capsule = true
     capsule_padding = 10.0
     center = [ "clock", "lyrics" ]
-    end = [ "widget", "media", "tray", "notifications", "clipboard", "network", "bluetooth", "output_volume", "battery" ]
+    end = [ "widget", "media", "tray", "notifications", "clipboard", "bitwarden", "network", "bluetooth", "output_volume", "battery" ]
     margin_edge = 5
     margin_ends = 5
     start = [ "control-center", "wallpaper", "workspaces", "active_window" ]
@@ -249,6 +249,14 @@ transition_on_startup = true
 
 [widget.battery]
 display_mode = "graphic"
+
+[widget.bitwarden]
+glyph = "lock"
+tooltip = "Bitwarden"
+type = "custom_button"
+
+    [widget.bitwarden.actions]
+    left = "panel-toggle launcher /bw"
 
 [widget.clock]
 format = "{:%-I:%M:%S %p · %a %b %-d}"
