@@ -7,8 +7,19 @@ order = [ "Top_Bar" ]
     background_opacity = 0.4999999888241291
     capsule = true
     capsule_padding = 10.0
-    center = [ "clock", "lyrics" ]
-    end = [ "widget", "media", "tray", "notifications", "clipboard", "bitwarden", "network", "bluetooth", "output_volume", "battery" ]
+    center = [ "clock" ]
+    end = [
+        "widget",
+        "media",
+        "tray",
+        "notifications",
+        "clipboard",
+        "bitwarden",
+        "network",
+        "bluetooth",
+        "output_volume",
+        "battery"
+    ]
     margin_edge = 5
     margin_ends = 5
     start = [ "control-center", "wallpaper", "workspaces", "active_window" ]
@@ -161,13 +172,7 @@ media = false
 translation_language = "en"
 
 [plugins]
-enabled = [
-    "noctalia/wallpaper_depth",
-    "yuuto/arch-updater",
-    "h465855hgg/lyrics",
-    "elijaharch/wl-screen-mirror",
-    "noctalia/bitwarden"
-]
+enabled = [ "noctalia/wallpaper_depth", "yuuto/arch-updater", "elijaharch/wl-screen-mirror", "noctalia/bitwarden" ]
 
 [shell]
 font_family = "Inter"
@@ -264,10 +269,6 @@ timezone = "America/Chicago"
 
 [widget.control-center]
 enabled = false
-
-[widget.lyrics]
-enabled = false
-type = "h465855hgg/lyrics:lyrics"
 
 [widget.media]
 art_size = 20
