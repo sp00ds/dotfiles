@@ -51,6 +51,10 @@ enabled = true
     [hot_corners.top_left]
     action = "window_switcher"
 
+    [hot_corners.top_right]
+    action = "command"
+    command = "noctalia msg panel-toggle session"
+
 [location]
 auto_locate = true
 
