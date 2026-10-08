@@ -54,6 +54,12 @@
         },
         {
           "active": false,
+          "command": "niri msg action quit",
+          "label": "󰍃",
+          "type": "button"
+        },
+        {
+          "active": false,
           "command": "systemctl reboot",
           "label": "",
           "type": "button"

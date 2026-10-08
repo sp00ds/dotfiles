@@ -1,20 +1,118 @@
 sw_volume: 100
 audio_device_state:1:PipeWire
 state: pause
-current: 1
-time: 26.734
+current: 76
+time: 171.838
 random: 1
 repeat: 1
-single: 0
+single: 1
 consume: 0
 crossfade: 0
 mixrampdb: 0
 mixrampdelay: -1
 lastloadedplaylist: 
 playlist_begin
-0:Indian/Kaadhal Oru - Oru Kal Oru Kannadi.mp3
-1:Indian/Azhage Azhage - Oru Kal Oru Kannadi.mp3
-2:Indian/Akila Akila - Oru Kal Oru Kannadi.mp3
-3:Indian/Adada Oru - Oru Kal Oru Kannadi.mp3
-4:Indian/Venaam Machan - Oru Kal Oru Kannadi.mp3
+0:Indian/Unfinished Hope - Premam.mp3
+1:Indian/Nallaru Po - Dude.mp3
+2:Indian/Sapta Sagaradaache Ello - Side A Title Track - Sapta Sagaradaache Ello - Side A.mp3
+3:Indian/Kannukulla - Dude.mp3
+4:Indian/Kannae Kanmaniye - Tere Ishk Mein.mp3
+5:Indian/Quit Pannuda - Master.mp3
+6:Indian/Un Paarvayil - Amman Kovil Kizhakale.mp3
+7:Indian/Ezhutha Kadhaiyo - Lover.mp3
+8:Indian/Singari - Dude.mp3
+9:Indian/Iravingu Theevai - 96.mp3
+10:Indian/Pattuma - Love Insurance Kompany.mp3
+11:Indian/Aasai Oru Pulveli - Attakathi.mp3
+12:Indian/Idhu Varai - Goa.mp3
+13:Indian/Anthaathi - 96.mp3
+14:Indian/Ennale Ennale - Kiss.mp3
+15:Indian/Anbae Peranbae - NGK.mp3
+16:Indian/Vaanam Paarthen - Kabali.mp3
+17:Indian/Verappa - Karuppu.mp3
+18:Indian/Ulagam Oruvanukka - Kabali.mp3
+19:Indian/Adi Alaye - Parasakthi.mp3
+20:Indian/Ninaivo Oru Paravai - Sigappu Rojakkal.mp3
+21:Indian/Powerhouse - Coolie.mp3
+22:Indian/The Life of Ram - 96.mp3
+23:Indian/Ain't Nobody - DC.mp3
+24:Indian/Marandhu Poche - With Love.mp3
+25:Indian/Meiyazhagan Medley - Meiyazhagan.mp3
+26:Indian/Aiyo Kadhaley - With Love.mp3
+27:Indian/Oorum Blood - Dude.mp3
+28:Indian/Makkayala - Naan.mp3
+29:Indian/Bimbilikki Pilapi - Prince.mp3
+30:Indian/Pottala Muttaye - Thalaivan Thalaivii.mp3
+31:Indian/Edharkaga Marubadi - Retro.mp3
+32:Indian/Usura Uruvi - Lover.mp3
+33:Indian/Vechikkava Unna Mattum - Nallavanukku Nallavan.mp3
+34:Indian/Mini Maharani - Premalu.mp3
+35:Indian/Ninnukori Varanam - Agni Natchathiram.mp3
+36:Indian/Titli - Chennai Express.mp3
+37:Indian/Kannukulla (Reprise) - Dude.mp3
+38:Indian/Poove Sempoove - Solla Thudikuthu Manasu.mp3
+39:Indian/Paaraa - Indian 2.mp3
+40:Indian/Poraen Naa Poraen - Meiyazhagan.mp3
+41:Indian/Telangana Bommalu - Premalu.mp3
+42:Indian/Yumabaibesa - Dude.mp3
+43:Indian/Enna Saththam Indha Neram - Punnagai Mannan.mp3
+44:Indian/Kannan Varum Velai - Deepavali.mp3
+45:Indian/Welcome To Hyderabad - Premalu.mp3
+46:Indian/Oru Kuchi Oru Kulfi - Kalakalappu 2.mp3
+47:Indian/Oor Manney - Meiyazhagan.mp3
+48:Indian/Kaathalin Deepam Ondru - Thambikku Entha Ooru.mp3
+49:Indian/Ammadi Ammadi - Desingu Raja.mp3
+50:Indian/Sangili Bungili - Kanchana.mp3
+51:Indian/Edhirthu Nil - Biriyani.mp3
+52:Indian/Yaar Enna Sonnalum - Aambala.mp3
+53:Indian/Yembuttu Irukkuthu Aasai - Saravanan Irukka Bayamaen.mp3
+54:Indian/Kutty Kudiye - Premalu.mp3
+55:Indian/Poo Maalayae - Pagal Nilavu.mp3
+56:Indian/Putham Pudhu Kaalai - Alaigal Oyivathillai.mp3
+57:Indian/Kannadi Poove - Retro.mp3
+58:Indian/Veriyera - Vivegam.mp3
+59:Indian/Vaanam - Vaanam.mp3
+60:Indian/Come On Girls - 3.mp3
+61:Indian/Kanimaa - Retro.mp3
+62:Indian/OG Sambavam - Good Bad Ugly.mp3
+63:Indian/Inbam Pongum Vennila - Aambala.mp3
+64:Indian/Iragey - Tourist Family.mp3
+65:Indian/Monica - Coolie.mp3
+66:Indian/Ichu Ichu - Vedi.mp3
+67:Indian/Kadhal Kappal - Iraivi.mp3
+68:Indian/Unnai Kaanadhu Naan - Vishwaroopam.mp3
+69:Indian/Pavazha Malli - Pavazha Malli.mp3
+70:Indian/Pookkalae Sattru Oyivedungal - I.mp3
+71:Indian/Oru Manam - Dhruva Natchathiram.mp3
+72:Indian/Vazhithunaiye - Dragon.mp3
+73:Indian/Adaavadi - Love Insurance Kompany.mp3
+74:Indian/Yeh Aatha - Malaikkotai.mp3
+75:Indian/Kattikida - Kaaki Sattai.mp3
+76:Indian/Anju Vanna Poove (Reprise) - Thug Life.mp3
+77:Indian/Powerhouse x Disco - Coolie (OST).mp3
+78:Indian/Nethu Oruthara Oruthara - Puthu Paatu.mp3
+79:Indian/Adi Alaye - Parasakthi.mp3
+80:Indian/Ain't Nobody - DC.mp3
+81:Indian/Aiyo Kadhaley - With Love.mp3
+82:Indian/Marandhu Poche - With Love.mp3
+83:Indian/Verappa - Karuppu.mp3
+84:Indian/Kannae Kanmaniye - Tere Ishk Mein.mp3
+85:Indian/Pavazha Malli - Pavazha Malli.mp3
+86:Indian/Aaja Raja - KH x RK.mp3
+87:Indian/Hukum Reloaded - Jailer 2.mp3
+88:Indian/Raavana Mavandaa - Jana Nayagan.mp3
+89:Indian/Oru Pere Varalaaru - Jana Nayagan.mp3
+90:Indian/Naanga Naalu Peru - Karuppu.mp3
+91:Indian/Adaavadi - Love Insurance Kompany.mp3
+92:Indian/Aaya Sher - The Paradise.mp3
+93:Indian/Dheema - Love Insurance Kompany.mp3
+94:Indian/Pattuma - Love Insurance Kompany.mp3
+95:Indian/Raga of Revenge - DC.mp3
+96:Indian/Verappa - Extended - Karuppu.mp3
+97:Indian/Raathu Raasan - Karuppu.mp3
+98:Indian/Karuppa Kooda Va - Karuppu.mp3
+99:Indian/Naanga Naalu Peru - Karuppu.mp3
+100:Indian/Raathu Raasan - Karuppu.mp3
+101:Indian/Verappa - Karuppu.mp3
+102:Indian/Verappa - Extended - Karuppu.mp3
 playlist_end

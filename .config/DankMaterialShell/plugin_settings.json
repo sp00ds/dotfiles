@@ -9,5 +9,21 @@
   },
   "niriWindows": {
     "enabled": true
+  },
+  "dankKDEConnect": {
+    "enabled": true,
+    "selectedDeviceId": "951eeaf4d1074516930b14b671f11222"
+  },
+  "lyricsOnPanel": {
+    "enabled": true
+  },
+  "dankGifSearch": {
+    "enabled": true
+  },
+  "dmsNothingX": {
+    "enabled": true
+  },
+  "pkgUpdate": {
+    "enabled": true
   }
 }

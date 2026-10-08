@@ -37,3 +37,5 @@ a color between surface and surface container so I think just giving this surfac
 @define-color dialog_bg_color #0f0d17;
 @define-color dialog_fg_color #e6e0ef;
 @import 'colors.css';
+
+@import url("noctalia.css");
