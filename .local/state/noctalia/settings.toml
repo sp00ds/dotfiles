@@ -46,10 +46,12 @@ show_dots = true
 show_instance_count = false
 
 [hot_corners]
+delay_ms = 250
 enabled = true
 
     [hot_corners.top_left]
-    action = "window_switcher"
+    action = "command"
+    command = "niri msg action toggle-overview"
 
     [hot_corners.top_right]
     action = "command"
