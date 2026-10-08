@@ -11,7 +11,7 @@ order = [ "Top_Bar" ]
     end = [ "widget", "media", "tray", "notifications", "clipboard", "network", "bluetooth", "output_volume", "battery" ]
     margin_edge = 5
     margin_ends = 5
-    start = [ "session", "control-center", "wallpaper", "workspaces", "active_window" ]
+    start = [ "control-center", "wallpaper", "workspaces", "active_window" ]
     thickness = 40
 
 [battery]
@@ -162,11 +162,11 @@ translation_language = "en"
 
 [plugins]
 enabled = [
-    "noctalia/bitwarden",
     "noctalia/wallpaper_depth",
     "yuuto/arch-updater",
     "h465855hgg/lyrics",
-    "elijaharch/wl-screen-mirror"
+    "elijaharch/wl-screen-mirror",
+    "noctalia/bitwarden"
 ]
 
 [shell]
