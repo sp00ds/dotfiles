@@ -28,6 +28,9 @@ order = [ "Top_Bar" ]
 [battery]
 warning_threshold = 15
 
+[brightness]
+minimum_brightness = 0.01
+
 [calendar]
 enabled = true
 
@@ -238,10 +241,10 @@ transition_on_startup = true
     enabled = true
 
     [wallpaper.default]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/muriLLu-Anime-Scenery-Sunset.jpg"
+    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/gustavo-arteaga-revenge.jpg"
 
     [wallpaper.last]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/muriLLu-Anime-Scenery-Sunset.jpg"
+    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/gustavo-arteaga-revenge.jpg"
 
     [wallpaper.monitors.DP-2]
     path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/alena-aenami-escape.jpg"
@@ -250,7 +253,7 @@ transition_on_startup = true
     path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/alena-aenami-you.jpg"
 
     [wallpaper.monitors.eDP-1]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/muriLLu-Anime-Scenery-Sunset.jpg"
+    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/gustavo-arteaga-revenge.jpg"
 
 [widget.battery]
 display_mode = "graphic"

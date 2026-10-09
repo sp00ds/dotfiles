@@ -113,10 +113,10 @@ binds {
 
     // === Brightness Controls ===
     XF86MonBrightnessUp allow-when-locked=true repeat=true {
-       spawn-sh "noctalia msg brightness-up";
+       spawn-sh "~/.config/niri/scripts/brightness-step.sh up";
     }
     XF86MonBrightnessDown allow-when-locked=true repeat=true {
-       spawn-sh "noctalia msg brightness-down";
+       spawn-sh "~/.config/niri/scripts/brightness-step.sh down";
     }
 
     // === Window Management ===
