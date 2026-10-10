@@ -39,6 +39,11 @@ enabled = true
     name = "Personal Calendar"
     type = "google"
 
+[control_center]
+hidden_tabs = [ "media", "audio", "power", "network", "bluetooth", "notifications" ]
+sidebar = "full"
+sidebar_section = "full"
+
 [desktop_widgets]
 schema_version = 2
 widget_order = []
@@ -75,7 +80,7 @@ enabled = true
 auto_locate = true
 
 [lockscreen_widgets]
-enabled = false
+enabled = true
 schema_version = 2
 widget_order = [ "lockscreen-login-box@DP-3", "lockscreen-login-box@DP-2", "lockscreen-login-box@eDP-1" ]
 
@@ -88,7 +93,7 @@ widget_order = [ "lockscreen-login-box@DP-3", "lockscreen-login-box@DP-2", "lock
     box_height = 196.0
     box_width = 810.0
     cx = 1920.0
-    cy = 1796.0
+    cy = 1080.0
     output = "DP-2"
     placement_height = 2160.0
     placement_width = 3840.0
@@ -115,7 +120,7 @@ widget_order = [ "lockscreen-login-box@DP-3", "lockscreen-login-box@DP-2", "lock
     box_height = 196.0
     box_width = 810.0
     cx = 1920.0
-    cy = 1978.0
+    cy = 1080.0
     output = "DP-3"
     placement_height = 2160.0
     placement_width = 3840.0
@@ -142,7 +147,7 @@ widget_order = [ "lockscreen-login-box@DP-3", "lockscreen-login-box@DP-2", "lock
     box_height = 196.0
     box_width = 810.0
     cx = 960.0
-    cy = 1018.0
+    cy = 600.0
     output = "eDP-1"
     placement_height = 1200.0
     placement_width = 1920.0
@@ -186,6 +191,12 @@ telemetry_enabled = true
 
     [shell.greeter_sync]
     auto_sync = true
+
+    [shell.launcher]
+    app_grid = true
+
+    [shell.panel]
+    open_near_click_control_center = true
 
     [[shell.session.actions]]
     action = "lock"
@@ -241,10 +252,10 @@ transition_on_startup = true
     enabled = true
 
     [wallpaper.default]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/tyler-smith-blue-lagoon-port.jpg"
+    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/tienphat-night-landscape.jpg"
 
     [wallpaper.last]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/tyler-smith-blue-lagoon-port.jpg"
+    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/tienphat-night-landscape.jpg"
 
     [wallpaper.monitors.DP-2]
     path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/alena-aenami-escape.jpg"
@@ -253,7 +264,7 @@ transition_on_startup = true
     path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/alena-aenami-you.jpg"
 
     [wallpaper.monitors.eDP-1]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/tyler-smith-blue-lagoon-port.jpg"
+    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/tienphat-night-landscape.jpg"
 
 [widget.battery]
 display_mode = "graphic"
