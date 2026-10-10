@@ -298,5 +298,3 @@ type = "yuuto/arch-updater:widget"
 [widget.workspaces]
 hide_when_empty = true
 show_labels = false
-[lockscreen]
-allow_empty_password = true
