@@ -252,10 +252,10 @@ transition_on_startup = true
     enabled = true
 
     [wallpaper.default]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/tienphat-night-landscape.jpg"
+    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/kvacm-sunlight.png"
 
     [wallpaper.last]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/tienphat-night-landscape.jpg"
+    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/kvacm-sunlight.png"
 
     [wallpaper.monitors.DP-2]
     path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/alena-aenami-escape.jpg"
@@ -264,7 +264,7 @@ transition_on_startup = true
     path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/alena-aenami-you.jpg"
 
     [wallpaper.monitors.eDP-1]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/tienphat-night-landscape.jpg"
+    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/kvacm-sunlight.png"
 
 [widget.battery]
 display_mode = "graphic"
@@ -298,3 +298,5 @@ type = "yuuto/arch-updater:widget"
 [widget.workspaces]
 hide_when_empty = true
 show_labels = false
+[lockscreen]
+allow_empty_password = true
