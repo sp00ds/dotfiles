@@ -241,10 +241,10 @@ transition_on_startup = true
     enabled = true
 
     [wallpaper.default]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/gustavo-arteaga-revenge.jpg"
+    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/tyler-smith-blue-lagoon-port.jpg"
 
     [wallpaper.last]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/gustavo-arteaga-revenge.jpg"
+    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/tyler-smith-blue-lagoon-port.jpg"
 
     [wallpaper.monitors.DP-2]
     path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/alena-aenami-escape.jpg"
@@ -253,7 +253,7 @@ transition_on_startup = true
     path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/alena-aenami-you.jpg"
 
     [wallpaper.monitors.eDP-1]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/gustavo-arteaga-revenge.jpg"
+    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/tyler-smith-blue-lagoon-port.jpg"
 
 [widget.battery]
 display_mode = "graphic"
