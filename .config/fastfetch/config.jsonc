@@ -1,13 +1,13 @@
 // fastfetch: closed box beside a wallpaper strip. Generated layout:
 //   1 pad + 34-col logo + 2 pad + 53-col box = right border at col 90
-//   (half-width kitty window is 91 cols). Logo image is made by ~/.local/bin/fastfetch-logo.
+//   (half-width kitty window is 91 cols). Logo is ~/.config/fastfetch/logo.png (a fixed 680x1176 crop of a photo).
 // Colors are terminal palette numbers so they follow Noctalia:
 //   36 cyan = labels, 34 blue = section headers, 90 = dim frame. \u001b[NG jumps to column N.
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
   "logo": {
     "type": "kitty-direct",
-    "source": "~/.cache/fastfetch/logo.png",
+    "source": "~/.config/fastfetch/logo.png",
     "width": 34,
     "height": 28,
     "padding": {
