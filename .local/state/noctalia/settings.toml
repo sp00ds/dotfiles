@@ -9,22 +9,15 @@ order = [ "Top_Bar" ]
     capsule_padding = 10.0
     capsule_radius = 6
     center = [ "clock" ]
-    end = [
-        "media",
-        "tray",
-        "notifications",
-        "clipboard",
-        "battery",
-        "group:system"
-    ]
+    end = [ "media", "tray", "notifications", "clipboard", "battery", "group:system" ]
     margin_edge = 5
     margin_ends = 5
     start = [ "control-center", "workspaces", "active_window" ]
     thickness = 40
 
-    [[bar.Top_Bar.capsule_group]]
-    id = "system"
-    members = [ "network", "bluetooth", "output_volume" ]
+        [[bar.Top_Bar.capsule_group]]
+        id = "system"
+        members = [ "network", "bluetooth", "output_volume" ]
 
 [battery]
 warning_threshold = 15
@@ -43,7 +36,7 @@ enabled = true
 [control_center]
 hidden_tabs = [ "media", "audio", "power", "network", "bluetooth", "notifications" ]
 sidebar = "full"
-sidebar_section = "full"
+sidebar_section = "none"
 
     [[control_center.shortcuts]]
     type = "wallpaper"
@@ -53,9 +46,6 @@ sidebar_section = "full"
 
     [[control_center.shortcuts]]
     type = "bluetooth"
-
-    [[control_center.shortcuts]]
-    type = "caffeine"
 
     [[control_center.shortcuts]]
     type = "nightlight"
