@@ -5,7 +5,7 @@ binds {
 
     // === Application Launchers ===
     Mod+Return hotkey-overlay-title="Terminal: Kitty" {spawn "kitty";}
-    Mod+D hotkey-overlay-title="Launcher: Rofi" {spawn-sh "rofi -show drun";}
+    Mod+D hotkey-overlay-title="Launcher: Noctalia" {spawn-sh "noctalia msg panel-toggle launcher";}
 	Mod+B hotkey-overlay-title="Browser: Firefox" {spawn "firefox";}
 
     // Noctalia's own launcher (was: dms spotlight toggle)
