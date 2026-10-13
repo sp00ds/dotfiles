@@ -10,21 +10,21 @@ order = [ "Top_Bar" ]
     capsule_radius = 6
     center = [ "clock" ]
     end = [
-        "widget",
         "media",
         "tray",
         "notifications",
         "clipboard",
         "bitwarden",
-        "network",
-        "bluetooth",
-        "output_volume",
-        "battery"
+        "group:system"
     ]
     margin_edge = 5
     margin_ends = 5
     start = [ "control-center", "wallpaper", "workspaces", "active_window" ]
     thickness = 40
+
+    [[bar.Top_Bar.capsule_group]]
+    id = "system"
+    members = [ "network", "bluetooth", "output_volume", "battery" ]
 
 [battery]
 warning_threshold = 15
@@ -292,9 +292,6 @@ hide_when_no_media = true
 
 [widget.network]
 show_label = false
-
-[widget.widget]
-type = "yuuto/arch-updater:widget"
 
 [widget.workspaces]
 hide_when_empty = true
