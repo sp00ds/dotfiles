@@ -22,6 +22,15 @@ if status is-interactive
     end
     # z <partial-name> jumps to frequently used dirs
     type -q zoxide; and zoxide init fish | source
+    # blinking line cursor at the prompt; back to kitty's default (block)
+    # while a command runs, so vim/less etc. look normal
+    function __beam_cursor --on-event fish_prompt
+        echo -en "\e[5 q"
+    end
+    function __default_cursor --on-event fish_preexec
+        echo -en "\e[0 q"
+    end
+
     # prompt; colors come from Noctalia's starship template (~/.config/starship.toml)
     type -q starship; and starship init fish | source
 end
