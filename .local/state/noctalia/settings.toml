@@ -14,17 +14,17 @@ order = [ "Top_Bar" ]
         "tray",
         "notifications",
         "clipboard",
-        "bitwarden",
+        "battery",
         "group:system"
     ]
     margin_edge = 5
     margin_ends = 5
-    start = [ "control-center", "wallpaper", "workspaces", "active_window" ]
+    start = [ "control-center", "workspaces", "active_window" ]
     thickness = 40
 
     [[bar.Top_Bar.capsule_group]]
     id = "system"
-    members = [ "network", "bluetooth", "output_volume", "battery" ]
+    members = [ "network", "bluetooth", "output_volume" ]
 
 [battery]
 warning_threshold = 15
@@ -44,6 +44,27 @@ enabled = true
 hidden_tabs = [ "media", "audio", "power", "network", "bluetooth", "notifications" ]
 sidebar = "full"
 sidebar_section = "full"
+
+    [[control_center.shortcuts]]
+    type = "wallpaper"
+
+    [[control_center.shortcuts]]
+    type = "wifi"
+
+    [[control_center.shortcuts]]
+    type = "bluetooth"
+
+    [[control_center.shortcuts]]
+    type = "caffeine"
+
+    [[control_center.shortcuts]]
+    type = "nightlight"
+
+    [[control_center.shortcuts]]
+    type = "notification"
+
+    [[control_center.shortcuts]]
+    type = "power_profile"
 
 [desktop_widgets]
 schema_version = 2
@@ -270,17 +291,12 @@ transition_on_startup = true
 [widget.battery]
 display_mode = "graphic"
 
-[widget.bitwarden]
-glyph = "lock"
-tooltip = "Bitwarden"
-type = "custom_button"
-
-    [widget.bitwarden.actions]
-    left = "panel-toggle launcher /bw"
-
 [widget.clock]
 format = "{:%-I:%M:%S %p · %a %b %-d}"
 timezone = "America/Chicago"
+
+    [widget.clock.actions]
+    left = "panel-toggle control-center home"
 
 [widget.control-center]
 enabled = false
