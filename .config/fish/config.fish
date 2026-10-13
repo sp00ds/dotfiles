@@ -14,6 +14,14 @@ if status is-interactive
 
     # Ctrl+R fuzzy history, Ctrl+T fuzzy file picker, Alt+C fuzzy cd
     type -q fzf; and fzf --fish | source
+    # fzf colors from Noctalia's wallpaper theme. The template appends to a
+    # universal var, so clear it first or it grows on every new shell.
+    if test -f ~/.config/fzf/themes/noctalia.fish
+        set -eU FZF_DEFAULT_OPTS
+        source ~/.config/fzf/themes/noctalia.fish
+    end
     # z <partial-name> jumps to frequently used dirs
     type -q zoxide; and zoxide init fish | source
+    # prompt; colors come from Noctalia's starship template (~/.config/starship.toml)
+    type -q starship; and starship init fish | source
 end
