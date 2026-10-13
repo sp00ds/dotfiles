@@ -1,0 +1,190 @@
+// fastfetch: closed box beside a wallpaper strip. Generated layout:
+//   2 pad + 14-col logo + 3 pad + 53-col box = right border at col 90
+//   (half-width kitty window is 91 cols). Logo image is made by ~/.local/bin/fastfetch-logo.
+// Colors are terminal palette numbers so they follow Noctalia:
+//   36 cyan = labels, 34 blue = section headers, 90 = dim frame. \u001b[NG jumps to column N.
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/master/doc/json_schema.json",
+  "logo": {
+    "type": "builtin",
+    "source": "arch_small",
+    "color": {
+      "1": "cyan",
+      "2": "blue"
+    },
+    "padding": {
+      "top": 3,
+      "left": 2,
+      "right": 3
+    }
+  },
+  "display": {
+    "separator": " ",
+    "key": {
+      "width": 16
+    },
+    "color": {
+      "keys": "cyan"
+    },
+    "size": {
+      "binaryPrefix": "si",
+      "ndigits": 1
+    },
+    "bar": {
+      "char": {
+        "elapsed": "■",
+        "total": "■"
+      },
+      "width": 12,
+      "border": null,
+      "color": {
+        "total": "90"
+      }
+    },
+    "percent": {
+      "type": [
+        "bar",
+        "num"
+      ],
+      "color": {
+        "green": "36",
+        "yellow": "34",
+        "red": "31"
+      }
+    }
+  },
+  "modules": [
+    {
+      "type": "title",
+      "format": "{#90}╭─ {#1;34}{user-name}{#90}@{#1;36}{host-name} {#90}─────────────────────────────────╮"
+    },
+    {
+      "type": "custom",
+      "format": "{#90}│\u001b[72G{#90}│"
+    },
+    {
+      "type": "custom",
+      "format": "{#90}│ {#1;34}󰘚  hardware\u001b[72G{#90}│"
+    },
+    {
+      "type": "host",
+      "key": "{#90}│ ├{#} {#36}󰌢 host",
+      "format": "{name}\u001b[72G{#90}│"
+    },
+    {
+      "type": "cpu",
+      "key": "{#90}│ ├{#} {#36}󰻠 cpu",
+      "format": "Intel Core i5-12500H {#90}({cores-physical}c/{cores-logical}t)\u001b[72G{#90}│"
+    },
+    {
+      "type": "gpu",
+      "key": "{#90}│ ├{#} {#36}󰢮 gpu",
+      "format": "{name}\u001b[72G{#90}│"
+    },
+    {
+      "type": "display",
+      "key": "{#90}│ ├{#} {#36}󰍹 display",
+      "format": "{width}x{height} @ {refresh-rate} Hz\u001b[72G{#90}│"
+    },
+    {
+      "type": "memory",
+      "key": "{#90}│ ├{#} {#36}󰍛 memory",
+      "format": "{percentage-bar} {percentage} {#90}{used} / {total}\u001b[72G{#90}│"
+    },
+    {
+      "type": "swap",
+      "key": "{#90}│ ├{#} {#36}󰓡 swap",
+      "format": "{percentage-bar} {percentage} {#90}{used} / {total}\u001b[72G{#90}│"
+    },
+    {
+      "type": "disk",
+      "key": "{#90}│ ├{#} {#36}󰋊 root",
+      "format": "{size-percentage-bar} {size-percentage} {#90}{size-used} / {size-total}\u001b[72G{#90}│",
+      "folders": "/"
+    },
+    {
+      "type": "disk",
+      "key": "{#90}│ ├{#} {#36}󰋊 home",
+      "format": "{size-percentage-bar} {size-percentage} {#90}{size-used} / {size-total}\u001b[72G{#90}│",
+      "folders": "/home"
+    },
+    {
+      "type": "battery",
+      "key": "{#90}│ └{#} {#36}󰁹 battery",
+      "format": "{capacity-bar} {capacity} {#90}{status}\u001b[72G{#90}│"
+    },
+    {
+      "type": "custom",
+      "format": "{#90}│\u001b[72G{#90}│"
+    },
+    {
+      "type": "custom",
+      "format": "{#90}│ {#1;34}󰀻  software\u001b[72G{#90}│"
+    },
+    {
+      "type": "os",
+      "key": "{#90}│ ├{#} {#36}󰣇 os",
+      "format": "{name} {arch}\u001b[72G{#90}│"
+    },
+    {
+      "type": "kernel",
+      "key": "{#90}│ ├{#} {#36}󰌽 kernel",
+      "format": "{release}\u001b[72G{#90}│"
+    },
+    {
+      "type": "wm",
+      "key": "{#90}│ ├{#} {#36}󰕮 wm",
+      "format": "{pretty-name} {version} {#90}({protocol-name})\u001b[72G{#90}│"
+    },
+    {
+      "type": "terminal",
+      "key": "{#90}│ ├{#} {#36}󰆍 term",
+      "format": "{pretty-name} {version}\u001b[72G{#90}│"
+    },
+    {
+      "type": "terminalfont",
+      "key": "{#90}│ ├{#} {#36}󰛖 font",
+      "format": "{name} {size}pt\u001b[72G{#90}│"
+    },
+    {
+      "type": "shell",
+      "key": "{#90}│ ├{#} {#36}󱆃 shell",
+      "format": "{pretty-name} {version}\u001b[72G{#90}│"
+    },
+    {
+      "type": "packages",
+      "key": "{#90}│ └{#} {#36}󰏖 pkgs",
+      "format": "{pacman} pacman {#90}·{#} {flatpak-all} flatpak\u001b[72G{#90}│"
+    },
+    {
+      "type": "custom",
+      "format": "{#90}│\u001b[72G{#90}│"
+    },
+    {
+      "type": "custom",
+      "format": "{#90}│ {#1;34}󰔟  status\u001b[72G{#90}│"
+    },
+    {
+      "type": "uptime",
+      "key": "{#90}│ ├{#} {#36}󰅐 uptime",
+      "format": "{days}d {hours}h {minutes}m\u001b[72G{#90}│"
+    },
+    {
+      "type": "localip",
+      "key": "{#90}│ └{#} {#36}󰩟 network",
+      "format": "{ipv4} {#90}({ifname})\u001b[72G{#90}│"
+    },
+    {
+      "type": "custom",
+      "format": "{#90}│\u001b[72G{#90}│"
+    },
+    {
+      "type": "custom",
+      "format": "{#90}│  {#30}● {#31}● {#32}● {#33}● {#34}● {#35}● {#36}● {#37}●  {#90}● {#91}● {#92}● {#93}● {#94}● {#95}● {#96}● {#97}●\u001b[72G{#90}│"
+    },
+    {
+      "type": "custom",
+      "format": "{#90}╰───────────────────────────────────────────────────╯"
+    }
+  ]
+}
