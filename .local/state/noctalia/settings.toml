@@ -17,7 +17,7 @@ order = [ "Top_Bar" ]
 
         [[bar.Top_Bar.capsule_group]]
         id = "system"
-        members = [ "network", "bluetooth", "output_volume" ]
+        members = [ "protonvpn", "network", "bluetooth", "output_volume" ]
 
 [battery]
 warning_threshold = 15
@@ -192,7 +192,13 @@ media = false
 translation_language = "en"
 
 [plugins]
-enabled = [ "noctalia/wallpaper_depth", "yuuto/arch-updater", "elijaharch/wl-screen-mirror", "noctalia/bitwarden" ]
+enabled = [
+    "noctalia/wallpaper_depth",
+    "yuuto/arch-updater",
+    "elijaharch/wl-screen-mirror",
+    "noctalia/bitwarden",
+    "riversyx/noctaproton-vpn"
+]
 
 [shell]
 font_family = "Inter"
@@ -298,6 +304,9 @@ hide_when_no_media = true
 
 [widget.network]
 show_label = false
+
+[widget.protonvpn]
+type = "riversyx/noctaproton-vpn:bar"
 
 [widget.workspaces]
 hide_when_empty = true
