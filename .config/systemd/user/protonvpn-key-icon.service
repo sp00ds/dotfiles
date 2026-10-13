@@ -1,6 +1,0 @@
-[Unit]
-Description=Swap Proton VPN bar icon from shield to key
-
-[Service]
-Type=oneshot
-ExecStart=%h/.config/noctalia/patches/protonvpn-key-icon.sh

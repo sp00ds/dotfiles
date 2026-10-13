@@ -1,9 +1,0 @@
-[Unit]
-Description=Re-apply key icon when Noctalia rewrites the Proton VPN plugin
-
-[Path]
-PathChanged=%h/.local/state/noctalia/plugins/materialized/community/noctaproton-vpn/bar.luau
-Unit=protonvpn-key-icon.service
-
-[Install]
-WantedBy=default.target
