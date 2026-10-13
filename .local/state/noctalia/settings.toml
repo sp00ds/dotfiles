@@ -7,6 +7,7 @@ order = [ "Top_Bar" ]
     background_opacity = 0.4999999888241291
     capsule = true
     capsule_padding = 10.0
+    capsule_radius = 6
     center = [ "clock" ]
     end = [
         "widget",
@@ -241,8 +242,8 @@ source = "wallpaper"
 wallpaper_scheme = "vibrant"
 
     [theme.templates]
-    builtin_ids = [ "gtk3", "gtk4", "kcolorscheme", "kitty", "niri", "qt" ]
-    community_ids = [ "feishin", "spicetify", "pywalfox", "libreoffice", "steam", "fastfetch" ]
+    builtin_ids = [ "gtk3", "gtk4", "kcolorscheme", "kitty", "niri", "qt", "starship" ]
+    community_ids = [ "feishin", "spicetify", "pywalfox", "libreoffice", "steam", "fastfetch", "fzf" ]
 
 [wallpaper]
 directory = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection"
@@ -252,10 +253,10 @@ transition_on_startup = true
     enabled = true
 
     [wallpaper.default]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/among-trees-campsite.jpg"
+    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/joeyjazz-under-the-strange-horizon.jpg"
 
     [wallpaper.last]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/among-trees-campsite.jpg"
+    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/joeyjazz-under-the-strange-horizon.jpg"
 
     [wallpaper.monitors.DP-2]
     path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/alena-aenami-escape.jpg"
@@ -264,7 +265,7 @@ transition_on_startup = true
     path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/alena-aenami-you.jpg"
 
     [wallpaper.monitors.eDP-1]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/among-trees-campsite.jpg"
+    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/joeyjazz-under-the-strange-horizon.jpg"
 
 [widget.battery]
 display_mode = "graphic"
