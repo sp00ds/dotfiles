@@ -264,25 +264,19 @@ wallpaper_scheme = "vibrant"
 
 [wallpaper]
 directory = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection"
+transition = [ "fade" ]
 transition_on_startup = true
 
-    [wallpaper.automation]
-    enabled = true
-
     [wallpaper.default]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/joeyjazz-under-the-strange-horizon.jpg"
+    path = "/home/sridhar/.cache/wallpaper/marina-20261016-021626.png"
 
     [wallpaper.last]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/joeyjazz-under-the-strange-horizon.jpg"
+    path = "/home/sridhar/.cache/wallpaper/marina-20261016-021626.png"
 
-    [wallpaper.monitors.DP-2]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/alena-aenami-escape.jpg"
 
-    [wallpaper.monitors.DP-3]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/alena-aenami-you.jpg"
 
     [wallpaper.monitors.eDP-1]
-    path = "/home/sridhar/Pictures/Wallpapers/Desktop/Minimalist Collection/joeyjazz-under-the-strange-horizon.jpg"
+    path = "/home/sridhar/.cache/wallpaper/marina-20261016-021626.png"
 
 [widget.battery]
 display_mode = "graphic"
